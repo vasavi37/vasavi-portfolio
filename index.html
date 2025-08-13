@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasavi Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Vasavi Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#mini-projects">Mini Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="darkModeBtn">🌙</button>
+        </nav>
+    </header>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am Vasavi, a final-year B.Tech student in Computer Science and Engineering at Sri Venkateswara College.
+            My background is rooted in technology and problem-solving, with a strong interest in web development and programming.
+            I enjoy learning new skills, solving logical problems, and applying my knowledge in practical projects.
+            My uniqueness lies in my dedication, consistency, and passion for building functional applications.</p>
+        <a href="C:\Users\gokav\Downloads\Resume.pdf" class="resume-btn" download>Download Resume</a>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <span class="skill">Core Java</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">Python</span>
+            <span class="skill">SQL</span>
+            <span class="skill">Web Development Basics</span>
+            <span class="skill">DSA using Java</span>
+        </div>
+
+        <h2>Interests</h2>
+        <div class="skills-grid">
+            <span class="skill">Learning new technologies</span>
+            <span class="skill">Watching movies</span>
+            <span class="skill">Coding & Problem Solving</span>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Quiz Application</h3>
+            <p>An interactive quiz web application developed using HTML and JavaScript, featuring dynamic questions, score calculation, and results display.</p>
+            <a href="https://github.com/vasavi37/quiz-app-project" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+            <h3>Lottery Game</h3>
+            <p>A fun and interactive number-based lottery game created using HTML and JavaScript where users can pick a random number and get a surprise gift revealed with cool sound effects and animations.</p>
+            <a href="https://github.com/vasavi37/LotteryGame" target="_blank">View Project</a>
+        </div>
+    </section>
+
+    <!-- Mini Projects -->
+    <section id="mini-projects">
+        <h2>Mini Projects</h2>
+        <div class="project-card">
+            <h3>Hospital Health Check System</h3>
+            <p>A simple web application built with HTML,CSS and JavaScript that calculates BMI based on user input and display the health status.</p>
+        </div>
+        <div class="project-card">
+            <h3>Old Age Bus Pass Application</h3>
+            <p>A simple web application using HTMl,CSS, and JavaScript.</p>
+        </div>
+        <div class="project-card">
+            <h3>Online Shopping Application</h3>
+            <p>This is a simple Online Shopping App built using HTML, CSS, and JavaScript. It demonstrates a basic e-commerce functionality where users can view available products, add items to their cart, sort products by price, and clear the cart. This project is designed to understand and practice DOM manipulation, event handling, and basic UI styling.</p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form" onsubmit="submitForm(event)">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+
+        <div class="contact-icons">
+            <div class="icons">
+                <a href="mailto:gokavalasavasavi3@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/vasavi37" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/vasavi-gokavalasa-863819315" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scroll Top Button -->
+    <button id="scrollTopBtn">↑</button>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Vasavi | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
